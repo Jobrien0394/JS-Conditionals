@@ -16,9 +16,10 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 // - Your code should output the message to the console.
 //
 // Write your code here 👇
-let number = 5;
-
-
+{let number = 20;
+if (number > 10)
+console.log("It is bigger than 10!");
+}
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Two");
 // Determining a color
@@ -31,9 +32,19 @@ console.log("Exercise Two");
 //     The correct message should log to the console.
 //
 // Write your code here 👇
-let color = "";
-
-
+let color="red"
+if  (color==="blue") {   
+    console.log("The sky is blue.")
+}
+  else if (color==="red") {
+ console.log("The flower is red.")
+  }
+  else if (color==="green") {
+ console.log("The leaf is green.")
+  }
+ else {
+    console.log("It is a different color.")
+}
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Three");
 // - Create an if statement that determines if variable 'value' has an even or odd number.
@@ -45,9 +56,13 @@ console.log("Exercise Three");
 //   code works.
 //
 // Write your code here 👇
-let value = 4;
-
-
+let value = 13;
+if (value % 2 === 0) {
+    console.log ("The number is even")
+}
+else {value % 2 === 1
+    console.log ("The number is odd")
+}
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Four");
 // Determining a color
@@ -69,6 +84,19 @@ console.log("Exercise Four");
 //     (like: if (a && b) )
 //
 // Write your code here 👇
+let myVariable=24
+if (myVariable > 10 && myVariable < 20) {
+    console.log("Between 10 and 20!")
+
+} else if (myVariable >= 20) {
+    console.log("20 or greater!")
+
+}   else if(myVariable===16) {
+    console.log("16!")
+
+}   else if(myVariable <= 10) {
+    console.log("10 or less!")
+}
 
 
 
